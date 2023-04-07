@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "sK4tfoh8GTnQoL0pNyWXDcPHXWXC3u/4+EzXuvN9OdkK7hSmT3Fl20zLmZpceUIGMrN9Gki8PoxwAQDOjRzikw==",
+  "success": false,
+  "projectFilePath": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\RP.API\\RP.API.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1008",
+      "level": "Error",
+      "message": "Projects that use central package version management should not define the version on the PackageReference items but on the PackageVersion items: Microsoft.AspNetCore.OpenApi;Swashbuckle.AspNetCore."
+    }
+  ]
+}
