@@ -1,14 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "aVMB5QHJ374ZAwMoBBZm29s1ZaJ1UUVm8FVAeWzEA4rdZwMTtzk9Mzw48sODIDI4Dm3vyIdaRajz/WXoOVb+VA==",
-  "success": false,
+  "dgSpecHash": "PDPxv3rW1R5x76ZKG5kFsU25cTLXohF7GgKWV1M/B8eulu/nC6TdWzHsh4wDWPQPXR/GRbx2ZNr/QzValXEXGw==",
+  "success": true,
   "projectFilePath": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\src\\CVParser.SharedKernel\\CVParser.SharedKernel.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to read project information for 'CVParser.SharedKernel': Invalid framework identifier ''."
-    }
-  ]
+  "expectedPackageFiles": [
+    "C:\\Users\\elio_\\.nuget\\packages\\ardalis.specification\\6.1.0\\ardalis.specification.6.1.0.nupkg.sha512",
+    "C:\\Users\\elio_\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\elio_\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\elio_\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
 }
