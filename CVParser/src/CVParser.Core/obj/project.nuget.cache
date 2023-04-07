@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "GfR3w5XxTu6CJHhr8iWlrVotgQ3cqo2IuYDNV/ztBgZlWw8isMoQQPsmEtvoQiN2CaDAsc66O49Sq7+zo67rKA==",
+  "success": false,
+  "projectFilePath": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\src\\CVParser.Core\\CVParser.Core.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to read project information for 'CVParser.Core': Invalid framework identifier ''."
+    }
+  ]
+}

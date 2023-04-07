@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "5Mf+u6SJcg50IlUxDwL4SbGGF+y/gw2Q3gAKsGbW1rPDYUdXQ3snU2l2i1fKiL7f5Pj/ZwvAL/tVEl8kxGWHMw==",
+  "success": false,
+  "projectFilePath": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\src\\CVParser.Web\\CVParser.Web.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to read project information for 'CVParser.Web': Invalid framework identifier ''."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "aVMB5QHJ374ZAwMoBBZm29s1ZaJ1UUVm8FVAeWzEA4rdZwMTtzk9Mzw48sODIDI4Dm3vyIdaRajz/WXoOVb+VA==",
+  "success": false,
+  "projectFilePath": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\src\\CVParser.SharedKernel\\CVParser.SharedKernel.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to read project information for 'CVParser.SharedKernel': Invalid framework identifier ''."
+    }
+  ]
+}

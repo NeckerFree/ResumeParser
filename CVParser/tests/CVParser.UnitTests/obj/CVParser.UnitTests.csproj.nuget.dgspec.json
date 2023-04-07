@@ -1,0 +1,117 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\tests\\CVParser.UnitTests\\CVParser.UnitTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\src\\CVParser.Core\\CVParser.Core.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\src\\CVParser.Core\\CVParser.Core.csproj",
+        "projectPath": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\src\\CVParser.Core\\CVParser.Core.csproj",
+        "packagesPath": "C:\\Users\\elio_\\.nuget\\packages\\",
+        "outputPath": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\src\\CVParser.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\elio_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        }
+      }
+    },
+    "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\tests\\CVParser.UnitTests\\CVParser.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\tests\\CVParser.UnitTests\\CVParser.UnitTests.csproj",
+        "projectName": "CVParser.UnitTests",
+        "projectPath": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\tests\\CVParser.UnitTests\\CVParser.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\elio_\\.nuget\\packages\\",
+        "outputPath": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\tests\\CVParser.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\elio_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\src\\CVParser.Core\\CVParser.Core.csproj": {
+                "projectPath": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\src\\CVParser.Core\\CVParser.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "ReportGenerator": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "(, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "(, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "aTmscyMaMn+HzUMsPUQuG4EbjR0UFr5qGizVzoCN5h+T3U0RlV7RtL23hhkLXoFPVD69S133eqaiS2cCmpx9Qg==",
+  "success": false,
+  "projectFilePath": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\src\\CVParser.Infrastructure\\CVParser.Infrastructure.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to read project information for 'CVParser.Infrastructure': Invalid framework identifier ''."
+    }
+  ]
+}
