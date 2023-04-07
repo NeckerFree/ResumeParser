@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "AgsVm+O5UjqlNYZXWyV9TB1Ko1jWC+MYbT9F2tIpHzILGuSXHS87AHARGV/dwmU9StGTCu3I4XYjBikgSLCqKw==",
+  "success": false,
+  "projectFilePath": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\RP.Testing\\RP.Testing.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1008",
+      "level": "Error",
+      "message": "Projects that use central package version management should not define the version on the PackageReference items but on the PackageVersion items: xunit.runner.visualstudio;Microsoft.NET.Test.Sdk;xunit;coverlet.collector."
+    }
+  ]
+}

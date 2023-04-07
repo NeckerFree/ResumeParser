@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xMRky3YihLVTvDtBL0jOS/25f3lsgb/2IWWTggCVorGi/VNRbmJJxY5khw1bIqXDjvM27zBtGIFIEdcAZTW/Nw==",
+  "dgSpecHash": "OEp+T3Iu0r3dDVenaCBWtcaW6xKfCuuq+Ue6MGYGeJyL+lVPP2BTxOExEDqBuiZKxlst6+8bdST2kDIEtLyaVQ==",
   "success": true,
   "projectFilePath": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\tests\\CVParser.IntegrationTests\\CVParser.IntegrationTests.csproj",
   "expectedPackageFiles": [
