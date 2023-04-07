@@ -184,7 +184,11 @@ Example command:
   bin/rails test test/models/article_test.rb
 ```
 --->
+This parser will be used to parse thousands of UNSTRUCTURED resumes in html, word (doc, docx), rtf, text and pdf formats.
 
+Input: Resume files in the following formats: WORD, PDF, TEXT, TIF, html
+
+Output: XML format files of the resume when all the words from resume are located in the correct tag of the XML.
 ### Deployment
 
 You can deploy this project using:
@@ -267,16 +271,45 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **Types of Parsers**
 
-  - [Answer_1]
+  - [Types of parsers](https://info.daxtra.com/blog/2014/02/26/types-of-parser-and-how-they-work)
 
-- **[Question_2]**
+- **How to buid a Resume Parser**
 
-  - [Answer_2]
+  - [Link](https://towardsdatascience.com/how-to-build-a-resume-parsing-tool-ae19c062e377)
 
+- **How to extract data from a PDF**
+
+  - [Link](https://www.grapecity.com/blogs/how-to-programmatically-extract-data-from-pdf-using-net-c-sharp)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+- **Example of resume parser**
+
+- [Link](https://www.codeproject.com/Articles/874212/Resume-Parser-An-example-of-Design-Patterns-in-pra)
+
+- **Chilli API Resume Parser**   
+
+- [Link](https://docs.rchilli.com/kc/c_RChilli_resume_parser_sample_codes.html) ****
+
+- **Nugget Packages**   
+
+- [Link](https://nugetmusthaves.com/tag/Resume) ****
+
+- **What is resume parsing**   
+
+- [Link](https://www.sovren.com/documents/what-is-resume-parsing) ****
+
+- **Information Extraction from CV**   
+
+- [Link](https://medium.com/@divalicious.priya/information-extraction-from-cv-acec216c3f48) ****
+
+- **Nugget Packages**   
+
+- [Link]() ****
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
