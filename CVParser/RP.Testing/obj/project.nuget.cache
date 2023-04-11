@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AgsVm+O5UjqlNYZXWyV9TB1Ko1jWC+MYbT9F2tIpHzILGuSXHS87AHARGV/dwmU9StGTCu3I4XYjBikgSLCqKw==",
+  "dgSpecHash": "UfG7mYl2D42YjNi2gvQKOSw5Kw1uLxv5Kg2aDtyIQAh4PRcYs+VUi75trSkEMcnJ4EUgL1e4R0+9y6xzJvlSiQ==",
   "success": false,
-  "projectFilePath": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\RP.Testing\\RP.Testing.csproj",
+  "projectFilePath": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\RP.Testing\\RP.TestingBorrar.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
