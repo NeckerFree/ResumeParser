@@ -44,6 +44,13 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Office.Interop.Word": {
+              "target": "Package",
+              "version": "[15.0.4797.1004, )",
+              "versionCentrallyManaged": true
+            }
+          },
           "centralPackageVersions": {
             "Ardalis.ApiEndpoints": "[4.0.1, )",
             "Ardalis.GuardClauses": "[4.0.1, )",
@@ -69,6 +76,7 @@
             "Microsoft.EntityFrameworkCore.SqlServer": "[7.0.4, )",
             "Microsoft.EntityFrameworkCore.Tools": "[7.0.4, )",
             "Microsoft.NET.Test.Sdk": "[17.5.0, )",
+            "Microsoft.Office.Interop.Word": "[15.0.4797.1004, )",
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": "[7.0.5, )",
             "Moq": "[4.18.4, )",
             "Newtonsoft.Json": "[13.0.3, )",

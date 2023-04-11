@@ -19,9 +19,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\RP.Testing\\RP.Testing.csproj",
-      "projectName": "RP.Testing",
-      "projectPath": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\RP.Testing\\RP.Testing.csproj",
+      "projectUniqueName": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\RP.Testing\\RP.TestingBorrar.csproj",
+      "projectName": "RP.TestingBorrar",
+      "projectPath": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\RP.Testing\\RP.TestingBorrar.csproj",
       "packagesPath": "C:\\Users\\elio_\\.nuget\\packages\\",
       "outputPath": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\RP.Testing\\obj\\",
       "projectStyle": "PackageReference",

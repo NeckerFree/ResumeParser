@@ -1,11 +1,37 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Microsoft.Office.Interop.Word/15.0.4797.1004": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Microsoft.Office.Interop.Word/15.0.4797.1004": {
+      "sha512": "lavTOrMGK/o/t3+gGr7JuVrL8XDdnS0DwPLcYv/StOiysXO4L0C36IXTVtEJo1Mh9Aoxo9a8dgGcPi+faTlv0g==",
+      "type": "package",
+      "path": "microsoft.office.interop.word/15.0.4797.1004",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Microsoft.Office.Interop.Word.dll",
+        "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll",
+        "microsoft.office.interop.word.15.0.4797.1004.nupkg.sha512",
+        "microsoft.office.interop.word.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Microsoft.Office.Interop.Word >= 15.0.4797.1004"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\elio_\\.nuget\\packages\\": {},
@@ -51,6 +77,13 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.Office.Interop.Word": {
+            "target": "Package",
+            "version": "[15.0.4797.1004, )",
+            "versionCentrallyManaged": true
+          }
+        },
         "centralPackageVersions": {
           "Ardalis.ApiEndpoints": "[4.0.1, )",
           "Ardalis.GuardClauses": "[4.0.1, )",
@@ -76,6 +109,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "[7.0.4, )",
           "Microsoft.EntityFrameworkCore.Tools": "[7.0.4, )",
           "Microsoft.NET.Test.Sdk": "[17.5.0, )",
+          "Microsoft.Office.Interop.Word": "[15.0.4797.1004, )",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "[7.0.5, )",
           "Moq": "[4.18.4, )",
           "Newtonsoft.Json": "[13.0.3, )",
