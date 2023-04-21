@@ -93,3 +93,7 @@
 /ResumeParser/packages/iTextSharp.5.5.4/AGPL.txt
 /ResumeParser/packages/DocumentFormat.OpenXml.2.5/lib/DocumentFormat.OpenXml.dll
 /ResumeParser/packages/DocumentFormat.OpenXml.2.5/DocumentFormat.OpenXml.2.5.nupkg
+/.vs/CVParser/v17/.futdcache.v2
+/.vs/CVParser/v17/.suo
+/CVParser/RP.Testing/obj/Debug/net7.0/RP.Testing.csproj.AssemblyReference.cache
+/.vs/CVParser/DesignTimeBuild/.dtbcache.v2
