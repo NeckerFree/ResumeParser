@@ -1,0 +1,1774 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.UnitTests\\Ordering.UnitTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+        "projectName": "EventBusRabbitMQ",
+        "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+        "packagesPath": "C:\\Users\\elio_\\.nuget\\packages\\",
+        "outputPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\NuGet.Config",
+          "C:\\Users\\elio_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
+                "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.5.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )",
+              "versionCentrallyManaged": true
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "AspNetCore.HealthChecks.AzureServiceBus": "[6.1.0, )",
+            "AspNetCore.HealthChecks.AzureStorage": "[6.1.2, )",
+            "AspNetCore.HealthChecks.Rabbitmq": "[6.0.2, )",
+            "AspNetCore.HealthChecks.Redis": "[6.0.4, )",
+            "AspNetCore.HealthChecks.SqlServer": "[6.0.2, )",
+            "AspNetCore.HealthChecks.UI": "[6.0.5, )",
+            "AspNetCore.HealthChecks.UI.Client": "[6.0.5, )",
+            "AspNetCore.HealthChecks.UI.InMemory.Storage": "[6.0.5, )",
+            "AspNetCore.HealthChecks.Uris": "[6.0.3, )",
+            "Autofac": "[6.5.0, )",
+            "Autofac.Extensions.DependencyInjection": "[8.0.0, )",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "[1.2.2, )",
+            "Azure.Identity": "[1.8.2, )",
+            "Azure.Messaging.ServiceBus": "[7.12.0, )",
+            "BuildBundlerMinifier": "[3.2.449, )",
+            "Dapper": "[2.0.123, )",
+            "Duende.IdentityServer": "[6.2.3, )",
+            "Duende.IdentityServer.AspNetIdentity": "[6.2.3, )",
+            "Duende.IdentityServer.EntityFramework": "[6.2.3, )",
+            "Duende.IdentityServer.EntityFramework.Storage": "[6.2.3, )",
+            "Duende.IdentityServer.Storage": "[6.2.3, )",
+            "FluentValidation.AspNetCore": "[11.2.2, )",
+            "Google.Protobuf": "[3.22.0, )",
+            "Grpc.AspNetCore.Server": "[2.51.0, )",
+            "Grpc.AspNetCore.Server.ClientFactory": "[2.51.0, )",
+            "Grpc.Core": "[2.46.6, )",
+            "Grpc.Net.Client": "[2.51.0, )",
+            "Grpc.Net.ClientFactory": "[2.51.0, )",
+            "Grpc.Tools": "[2.51.0, )",
+            "MediatR": "[12.0.0, )",
+            "Microsoft.ApplicationInsights.AspNetCore": "[2.22.0-beta1, )",
+            "Microsoft.ApplicationInsights.DependencyCollector": "[2.22.0-beta1, )",
+            "Microsoft.ApplicationInsights.Kubernetes": "[6.0.0, )",
+            "Microsoft.AspNet.WebApi.Client": "[5.2.9, )",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "[7.0.3, )",
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": "[7.0.3, )",
+            "Microsoft.AspNetCore.Authorization": "[7.0.3, )",
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": "[7.0.3, )",
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": "[2.2.0, )",
+            "Microsoft.AspNetCore.HealthChecks": "[1.0.0, )",
+            "Microsoft.AspNetCore.Http.Abstractions": "[2.2.0, )",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.AspNetCore.Identity.UI": "[7.0.3, )",
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.3, )",
+            "Microsoft.AspNetCore.Mvc.Testing": "[7.0.3, )",
+            "Microsoft.AspNetCore.SignalR.StackExchangeRedis": "[7.0.3, )",
+            "Microsoft.AspNetCore.SpaServices.Extensions": "[7.0.3, )",
+            "Microsoft.AspNetCore.TestHost": "[7.0.3, )",
+            "Microsoft.Build.Utilities.Core": "[17.4.0, )",
+            "Microsoft.CSharp": "[4.7.0, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.InMemory": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Proxies": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Relational": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.SqlServer": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[7.0.3, )",
+            "Microsoft.Extensions.Configuration.Binder": "[7.0.3, )",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "[7.0.0, )",
+            "Microsoft.Extensions.DependencyModel": "[7.0.0, )",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "[7.0.3, )",
+            "Microsoft.Extensions.Hosting": "[7.0.1, )",
+            "Microsoft.Extensions.Http": "[7.0.0, )",
+            "Microsoft.Extensions.Identity.Stores": "[7.0.3, )",
+            "Microsoft.Extensions.Logging": "[7.0.0, )",
+            "Microsoft.Extensions.Logging.Abstractions": "[7.0.0, )",
+            "Microsoft.Extensions.Logging.AzureAppServices": "[7.0.3, )",
+            "Microsoft.NET.Test.Sdk": "[17.5.0, )",
+            "Microsoft.NETCore.Platforms": "[7.0.0, )",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "[1.17.0, )",
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": "[7.0.4, )",
+            "Microsoft.Web.LibraryManager.Build": "[2.1.175, )",
+            "Moq": "[4.18.4, )",
+            "Newtonsoft.Json": "[13.0.2, )",
+            "Polly": "[7.2.3, )",
+            "RabbitMQ.Client": "[6.4.0, )",
+            "Serilog.AspNetCore": "[6.1.0, )",
+            "Serilog.Enrichers.Environment": "[2.2.1-dev-00787, )",
+            "Serilog.Settings.Configuration": "[3.5.0-dev-00359, )",
+            "Serilog.Sinks.Console": "[4.1.1-dev-00896, )",
+            "Serilog.Sinks.Http": "[8.0.0, )",
+            "Serilog.Sinks.Seq": "[5.2.3-dev-00260, )",
+            "Swashbuckle.AspNetCore": "[6.5.0, )",
+            "Swashbuckle.AspNetCore.Newtonsoft": "[6.5.0, )",
+            "System.Data.SqlClient": "[4.8.5, )",
+            "System.IdentityModel.Tokens.Jwt": "[6.27.0, )",
+            "System.Reflection.TypeExtensions": "[4.7.0, )",
+            "xunit": "[2.4.2, )",
+            "xunit.runner.visualstudio": "[2.4.5, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj",
+        "projectName": "EventBusServiceBus",
+        "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj",
+        "packagesPath": "C:\\Users\\elio_\\.nuget\\packages\\",
+        "outputPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\NuGet.Config",
+          "C:\\Users\\elio_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
+                "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.5.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.12.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "AspNetCore.HealthChecks.AzureServiceBus": "[6.1.0, )",
+            "AspNetCore.HealthChecks.AzureStorage": "[6.1.2, )",
+            "AspNetCore.HealthChecks.Rabbitmq": "[6.0.2, )",
+            "AspNetCore.HealthChecks.Redis": "[6.0.4, )",
+            "AspNetCore.HealthChecks.SqlServer": "[6.0.2, )",
+            "AspNetCore.HealthChecks.UI": "[6.0.5, )",
+            "AspNetCore.HealthChecks.UI.Client": "[6.0.5, )",
+            "AspNetCore.HealthChecks.UI.InMemory.Storage": "[6.0.5, )",
+            "AspNetCore.HealthChecks.Uris": "[6.0.3, )",
+            "Autofac": "[6.5.0, )",
+            "Autofac.Extensions.DependencyInjection": "[8.0.0, )",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "[1.2.2, )",
+            "Azure.Identity": "[1.8.2, )",
+            "Azure.Messaging.ServiceBus": "[7.12.0, )",
+            "BuildBundlerMinifier": "[3.2.449, )",
+            "Dapper": "[2.0.123, )",
+            "Duende.IdentityServer": "[6.2.3, )",
+            "Duende.IdentityServer.AspNetIdentity": "[6.2.3, )",
+            "Duende.IdentityServer.EntityFramework": "[6.2.3, )",
+            "Duende.IdentityServer.EntityFramework.Storage": "[6.2.3, )",
+            "Duende.IdentityServer.Storage": "[6.2.3, )",
+            "FluentValidation.AspNetCore": "[11.2.2, )",
+            "Google.Protobuf": "[3.22.0, )",
+            "Grpc.AspNetCore.Server": "[2.51.0, )",
+            "Grpc.AspNetCore.Server.ClientFactory": "[2.51.0, )",
+            "Grpc.Core": "[2.46.6, )",
+            "Grpc.Net.Client": "[2.51.0, )",
+            "Grpc.Net.ClientFactory": "[2.51.0, )",
+            "Grpc.Tools": "[2.51.0, )",
+            "MediatR": "[12.0.0, )",
+            "Microsoft.ApplicationInsights.AspNetCore": "[2.22.0-beta1, )",
+            "Microsoft.ApplicationInsights.DependencyCollector": "[2.22.0-beta1, )",
+            "Microsoft.ApplicationInsights.Kubernetes": "[6.0.0, )",
+            "Microsoft.AspNet.WebApi.Client": "[5.2.9, )",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "[7.0.3, )",
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": "[7.0.3, )",
+            "Microsoft.AspNetCore.Authorization": "[7.0.3, )",
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": "[7.0.3, )",
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": "[2.2.0, )",
+            "Microsoft.AspNetCore.HealthChecks": "[1.0.0, )",
+            "Microsoft.AspNetCore.Http.Abstractions": "[2.2.0, )",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.AspNetCore.Identity.UI": "[7.0.3, )",
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.3, )",
+            "Microsoft.AspNetCore.Mvc.Testing": "[7.0.3, )",
+            "Microsoft.AspNetCore.SignalR.StackExchangeRedis": "[7.0.3, )",
+            "Microsoft.AspNetCore.SpaServices.Extensions": "[7.0.3, )",
+            "Microsoft.AspNetCore.TestHost": "[7.0.3, )",
+            "Microsoft.Build.Utilities.Core": "[17.4.0, )",
+            "Microsoft.CSharp": "[4.7.0, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.InMemory": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Proxies": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Relational": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.SqlServer": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[7.0.3, )",
+            "Microsoft.Extensions.Configuration.Binder": "[7.0.3, )",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "[7.0.0, )",
+            "Microsoft.Extensions.DependencyModel": "[7.0.0, )",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "[7.0.3, )",
+            "Microsoft.Extensions.Hosting": "[7.0.1, )",
+            "Microsoft.Extensions.Http": "[7.0.0, )",
+            "Microsoft.Extensions.Identity.Stores": "[7.0.3, )",
+            "Microsoft.Extensions.Logging": "[7.0.0, )",
+            "Microsoft.Extensions.Logging.Abstractions": "[7.0.0, )",
+            "Microsoft.Extensions.Logging.AzureAppServices": "[7.0.3, )",
+            "Microsoft.NET.Test.Sdk": "[17.5.0, )",
+            "Microsoft.NETCore.Platforms": "[7.0.0, )",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "[1.17.0, )",
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": "[7.0.4, )",
+            "Microsoft.Web.LibraryManager.Build": "[2.1.175, )",
+            "Moq": "[4.18.4, )",
+            "Newtonsoft.Json": "[13.0.2, )",
+            "Polly": "[7.2.3, )",
+            "RabbitMQ.Client": "[6.4.0, )",
+            "Serilog.AspNetCore": "[6.1.0, )",
+            "Serilog.Enrichers.Environment": "[2.2.1-dev-00787, )",
+            "Serilog.Settings.Configuration": "[3.5.0-dev-00359, )",
+            "Serilog.Sinks.Console": "[4.1.1-dev-00896, )",
+            "Serilog.Sinks.Http": "[8.0.0, )",
+            "Serilog.Sinks.Seq": "[5.2.3-dev-00260, )",
+            "Swashbuckle.AspNetCore": "[6.5.0, )",
+            "Swashbuckle.AspNetCore.Newtonsoft": "[6.5.0, )",
+            "System.Data.SqlClient": "[4.8.5, )",
+            "System.IdentityModel.Tokens.Jwt": "[6.27.0, )",
+            "System.Reflection.TypeExtensions": "[4.7.0, )",
+            "xunit": "[2.4.2, )",
+            "xunit.runner.visualstudio": "[2.4.5, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj",
+        "projectName": "EventBus",
+        "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj",
+        "packagesPath": "C:\\Users\\elio_\\.nuget\\packages\\",
+        "outputPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\NuGet.Config",
+          "C:\\Users\\elio_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "centralPackageVersions": {
+            "AspNetCore.HealthChecks.AzureServiceBus": "[6.1.0, )",
+            "AspNetCore.HealthChecks.AzureStorage": "[6.1.2, )",
+            "AspNetCore.HealthChecks.Rabbitmq": "[6.0.2, )",
+            "AspNetCore.HealthChecks.Redis": "[6.0.4, )",
+            "AspNetCore.HealthChecks.SqlServer": "[6.0.2, )",
+            "AspNetCore.HealthChecks.UI": "[6.0.5, )",
+            "AspNetCore.HealthChecks.UI.Client": "[6.0.5, )",
+            "AspNetCore.HealthChecks.UI.InMemory.Storage": "[6.0.5, )",
+            "AspNetCore.HealthChecks.Uris": "[6.0.3, )",
+            "Autofac": "[6.5.0, )",
+            "Autofac.Extensions.DependencyInjection": "[8.0.0, )",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "[1.2.2, )",
+            "Azure.Identity": "[1.8.2, )",
+            "Azure.Messaging.ServiceBus": "[7.12.0, )",
+            "BuildBundlerMinifier": "[3.2.449, )",
+            "Dapper": "[2.0.123, )",
+            "Duende.IdentityServer": "[6.2.3, )",
+            "Duende.IdentityServer.AspNetIdentity": "[6.2.3, )",
+            "Duende.IdentityServer.EntityFramework": "[6.2.3, )",
+            "Duende.IdentityServer.EntityFramework.Storage": "[6.2.3, )",
+            "Duende.IdentityServer.Storage": "[6.2.3, )",
+            "FluentValidation.AspNetCore": "[11.2.2, )",
+            "Google.Protobuf": "[3.22.0, )",
+            "Grpc.AspNetCore.Server": "[2.51.0, )",
+            "Grpc.AspNetCore.Server.ClientFactory": "[2.51.0, )",
+            "Grpc.Core": "[2.46.6, )",
+            "Grpc.Net.Client": "[2.51.0, )",
+            "Grpc.Net.ClientFactory": "[2.51.0, )",
+            "Grpc.Tools": "[2.51.0, )",
+            "MediatR": "[12.0.0, )",
+            "Microsoft.ApplicationInsights.AspNetCore": "[2.22.0-beta1, )",
+            "Microsoft.ApplicationInsights.DependencyCollector": "[2.22.0-beta1, )",
+            "Microsoft.ApplicationInsights.Kubernetes": "[6.0.0, )",
+            "Microsoft.AspNet.WebApi.Client": "[5.2.9, )",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "[7.0.3, )",
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": "[7.0.3, )",
+            "Microsoft.AspNetCore.Authorization": "[7.0.3, )",
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": "[7.0.3, )",
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": "[2.2.0, )",
+            "Microsoft.AspNetCore.HealthChecks": "[1.0.0, )",
+            "Microsoft.AspNetCore.Http.Abstractions": "[2.2.0, )",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.AspNetCore.Identity.UI": "[7.0.3, )",
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.3, )",
+            "Microsoft.AspNetCore.Mvc.Testing": "[7.0.3, )",
+            "Microsoft.AspNetCore.SignalR.StackExchangeRedis": "[7.0.3, )",
+            "Microsoft.AspNetCore.SpaServices.Extensions": "[7.0.3, )",
+            "Microsoft.AspNetCore.TestHost": "[7.0.3, )",
+            "Microsoft.Build.Utilities.Core": "[17.4.0, )",
+            "Microsoft.CSharp": "[4.7.0, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.InMemory": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Proxies": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Relational": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.SqlServer": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[7.0.3, )",
+            "Microsoft.Extensions.Configuration.Binder": "[7.0.3, )",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "[7.0.0, )",
+            "Microsoft.Extensions.DependencyModel": "[7.0.0, )",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "[7.0.3, )",
+            "Microsoft.Extensions.Hosting": "[7.0.1, )",
+            "Microsoft.Extensions.Http": "[7.0.0, )",
+            "Microsoft.Extensions.Identity.Stores": "[7.0.3, )",
+            "Microsoft.Extensions.Logging": "[7.0.0, )",
+            "Microsoft.Extensions.Logging.Abstractions": "[7.0.0, )",
+            "Microsoft.Extensions.Logging.AzureAppServices": "[7.0.3, )",
+            "Microsoft.NET.Test.Sdk": "[17.5.0, )",
+            "Microsoft.NETCore.Platforms": "[7.0.0, )",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "[1.17.0, )",
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": "[7.0.4, )",
+            "Microsoft.Web.LibraryManager.Build": "[2.1.175, )",
+            "Moq": "[4.18.4, )",
+            "Newtonsoft.Json": "[13.0.2, )",
+            "Polly": "[7.2.3, )",
+            "RabbitMQ.Client": "[6.4.0, )",
+            "Serilog.AspNetCore": "[6.1.0, )",
+            "Serilog.Enrichers.Environment": "[2.2.1-dev-00787, )",
+            "Serilog.Settings.Configuration": "[3.5.0-dev-00359, )",
+            "Serilog.Sinks.Console": "[4.1.1-dev-00896, )",
+            "Serilog.Sinks.Http": "[8.0.0, )",
+            "Serilog.Sinks.Seq": "[5.2.3-dev-00260, )",
+            "Swashbuckle.AspNetCore": "[6.5.0, )",
+            "Swashbuckle.AspNetCore.Newtonsoft": "[6.5.0, )",
+            "System.Data.SqlClient": "[4.8.5, )",
+            "System.IdentityModel.Tokens.Jwt": "[6.27.0, )",
+            "System.Reflection.TypeExtensions": "[4.7.0, )",
+            "xunit": "[2.4.2, )",
+            "xunit.runner.visualstudio": "[2.4.5, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj",
+        "projectName": "IntegrationEventLogEF",
+        "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj",
+        "packagesPath": "C:\\Users\\elio_\\.nuget\\packages\\",
+        "outputPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\NuGet.Config",
+          "C:\\Users\\elio_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
+                "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "AspNetCore.HealthChecks.AzureServiceBus": "[6.1.0, )",
+            "AspNetCore.HealthChecks.AzureStorage": "[6.1.2, )",
+            "AspNetCore.HealthChecks.Rabbitmq": "[6.0.2, )",
+            "AspNetCore.HealthChecks.Redis": "[6.0.4, )",
+            "AspNetCore.HealthChecks.SqlServer": "[6.0.2, )",
+            "AspNetCore.HealthChecks.UI": "[6.0.5, )",
+            "AspNetCore.HealthChecks.UI.Client": "[6.0.5, )",
+            "AspNetCore.HealthChecks.UI.InMemory.Storage": "[6.0.5, )",
+            "AspNetCore.HealthChecks.Uris": "[6.0.3, )",
+            "Autofac": "[6.5.0, )",
+            "Autofac.Extensions.DependencyInjection": "[8.0.0, )",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "[1.2.2, )",
+            "Azure.Identity": "[1.8.2, )",
+            "Azure.Messaging.ServiceBus": "[7.12.0, )",
+            "BuildBundlerMinifier": "[3.2.449, )",
+            "Dapper": "[2.0.123, )",
+            "Duende.IdentityServer": "[6.2.3, )",
+            "Duende.IdentityServer.AspNetIdentity": "[6.2.3, )",
+            "Duende.IdentityServer.EntityFramework": "[6.2.3, )",
+            "Duende.IdentityServer.EntityFramework.Storage": "[6.2.3, )",
+            "Duende.IdentityServer.Storage": "[6.2.3, )",
+            "FluentValidation.AspNetCore": "[11.2.2, )",
+            "Google.Protobuf": "[3.22.0, )",
+            "Grpc.AspNetCore.Server": "[2.51.0, )",
+            "Grpc.AspNetCore.Server.ClientFactory": "[2.51.0, )",
+            "Grpc.Core": "[2.46.6, )",
+            "Grpc.Net.Client": "[2.51.0, )",
+            "Grpc.Net.ClientFactory": "[2.51.0, )",
+            "Grpc.Tools": "[2.51.0, )",
+            "MediatR": "[12.0.0, )",
+            "Microsoft.ApplicationInsights.AspNetCore": "[2.22.0-beta1, )",
+            "Microsoft.ApplicationInsights.DependencyCollector": "[2.22.0-beta1, )",
+            "Microsoft.ApplicationInsights.Kubernetes": "[6.0.0, )",
+            "Microsoft.AspNet.WebApi.Client": "[5.2.9, )",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "[7.0.3, )",
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": "[7.0.3, )",
+            "Microsoft.AspNetCore.Authorization": "[7.0.3, )",
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": "[7.0.3, )",
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": "[2.2.0, )",
+            "Microsoft.AspNetCore.HealthChecks": "[1.0.0, )",
+            "Microsoft.AspNetCore.Http.Abstractions": "[2.2.0, )",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.AspNetCore.Identity.UI": "[7.0.3, )",
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.3, )",
+            "Microsoft.AspNetCore.Mvc.Testing": "[7.0.3, )",
+            "Microsoft.AspNetCore.SignalR.StackExchangeRedis": "[7.0.3, )",
+            "Microsoft.AspNetCore.SpaServices.Extensions": "[7.0.3, )",
+            "Microsoft.AspNetCore.TestHost": "[7.0.3, )",
+            "Microsoft.Build.Utilities.Core": "[17.4.0, )",
+            "Microsoft.CSharp": "[4.7.0, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.InMemory": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Proxies": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Relational": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.SqlServer": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[7.0.3, )",
+            "Microsoft.Extensions.Configuration.Binder": "[7.0.3, )",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "[7.0.0, )",
+            "Microsoft.Extensions.DependencyModel": "[7.0.0, )",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "[7.0.3, )",
+            "Microsoft.Extensions.Hosting": "[7.0.1, )",
+            "Microsoft.Extensions.Http": "[7.0.0, )",
+            "Microsoft.Extensions.Identity.Stores": "[7.0.3, )",
+            "Microsoft.Extensions.Logging": "[7.0.0, )",
+            "Microsoft.Extensions.Logging.Abstractions": "[7.0.0, )",
+            "Microsoft.Extensions.Logging.AzureAppServices": "[7.0.3, )",
+            "Microsoft.NET.Test.Sdk": "[17.5.0, )",
+            "Microsoft.NETCore.Platforms": "[7.0.0, )",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "[1.17.0, )",
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": "[7.0.4, )",
+            "Microsoft.Web.LibraryManager.Build": "[2.1.175, )",
+            "Moq": "[4.18.4, )",
+            "Newtonsoft.Json": "[13.0.2, )",
+            "Polly": "[7.2.3, )",
+            "RabbitMQ.Client": "[6.4.0, )",
+            "Serilog.AspNetCore": "[6.1.0, )",
+            "Serilog.Enrichers.Environment": "[2.2.1-dev-00787, )",
+            "Serilog.Settings.Configuration": "[3.5.0-dev-00359, )",
+            "Serilog.Sinks.Console": "[4.1.1-dev-00896, )",
+            "Serilog.Sinks.Http": "[8.0.0, )",
+            "Serilog.Sinks.Seq": "[5.2.3-dev-00260, )",
+            "Swashbuckle.AspNetCore": "[6.5.0, )",
+            "Swashbuckle.AspNetCore.Newtonsoft": "[6.5.0, )",
+            "System.Data.SqlClient": "[4.8.5, )",
+            "System.IdentityModel.Tokens.Jwt": "[6.27.0, )",
+            "System.Reflection.TypeExtensions": "[4.7.0, )",
+            "xunit": "[2.4.2, )",
+            "xunit.runner.visualstudio": "[2.4.5, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\WebHostCustomization\\WebHost.Customization\\WebHost.Customization.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\WebHostCustomization\\WebHost.Customization\\WebHost.Customization.csproj",
+        "projectName": "WebHost.Customization",
+        "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\WebHostCustomization\\WebHost.Customization\\WebHost.Customization.csproj",
+        "packagesPath": "C:\\Users\\elio_\\.nuget\\packages\\",
+        "outputPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\WebHostCustomization\\WebHost.Customization\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\NuGet.Config",
+          "C:\\Users\\elio_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.NETCore.Platforms": {
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "AspNetCore.HealthChecks.AzureServiceBus": "[6.1.0, )",
+            "AspNetCore.HealthChecks.AzureStorage": "[6.1.2, )",
+            "AspNetCore.HealthChecks.Rabbitmq": "[6.0.2, )",
+            "AspNetCore.HealthChecks.Redis": "[6.0.4, )",
+            "AspNetCore.HealthChecks.SqlServer": "[6.0.2, )",
+            "AspNetCore.HealthChecks.UI": "[6.0.5, )",
+            "AspNetCore.HealthChecks.UI.Client": "[6.0.5, )",
+            "AspNetCore.HealthChecks.UI.InMemory.Storage": "[6.0.5, )",
+            "AspNetCore.HealthChecks.Uris": "[6.0.3, )",
+            "Autofac": "[6.5.0, )",
+            "Autofac.Extensions.DependencyInjection": "[8.0.0, )",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "[1.2.2, )",
+            "Azure.Identity": "[1.8.2, )",
+            "Azure.Messaging.ServiceBus": "[7.12.0, )",
+            "BuildBundlerMinifier": "[3.2.449, )",
+            "Dapper": "[2.0.123, )",
+            "Duende.IdentityServer": "[6.2.3, )",
+            "Duende.IdentityServer.AspNetIdentity": "[6.2.3, )",
+            "Duende.IdentityServer.EntityFramework": "[6.2.3, )",
+            "Duende.IdentityServer.EntityFramework.Storage": "[6.2.3, )",
+            "Duende.IdentityServer.Storage": "[6.2.3, )",
+            "FluentValidation.AspNetCore": "[11.2.2, )",
+            "Google.Protobuf": "[3.22.0, )",
+            "Grpc.AspNetCore.Server": "[2.51.0, )",
+            "Grpc.AspNetCore.Server.ClientFactory": "[2.51.0, )",
+            "Grpc.Core": "[2.46.6, )",
+            "Grpc.Net.Client": "[2.51.0, )",
+            "Grpc.Net.ClientFactory": "[2.51.0, )",
+            "Grpc.Tools": "[2.51.0, )",
+            "MediatR": "[12.0.0, )",
+            "Microsoft.ApplicationInsights.AspNetCore": "[2.22.0-beta1, )",
+            "Microsoft.ApplicationInsights.DependencyCollector": "[2.22.0-beta1, )",
+            "Microsoft.ApplicationInsights.Kubernetes": "[6.0.0, )",
+            "Microsoft.AspNet.WebApi.Client": "[5.2.9, )",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "[7.0.3, )",
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": "[7.0.3, )",
+            "Microsoft.AspNetCore.Authorization": "[7.0.3, )",
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": "[7.0.3, )",
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": "[2.2.0, )",
+            "Microsoft.AspNetCore.HealthChecks": "[1.0.0, )",
+            "Microsoft.AspNetCore.Http.Abstractions": "[2.2.0, )",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.AspNetCore.Identity.UI": "[7.0.3, )",
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.3, )",
+            "Microsoft.AspNetCore.Mvc.Testing": "[7.0.3, )",
+            "Microsoft.AspNetCore.SignalR.StackExchangeRedis": "[7.0.3, )",
+            "Microsoft.AspNetCore.SpaServices.Extensions": "[7.0.3, )",
+            "Microsoft.AspNetCore.TestHost": "[7.0.3, )",
+            "Microsoft.Build.Utilities.Core": "[17.4.0, )",
+            "Microsoft.CSharp": "[4.7.0, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.InMemory": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Proxies": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Relational": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.SqlServer": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[7.0.3, )",
+            "Microsoft.Extensions.Configuration.Binder": "[7.0.3, )",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "[7.0.0, )",
+            "Microsoft.Extensions.DependencyModel": "[7.0.0, )",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "[7.0.3, )",
+            "Microsoft.Extensions.Hosting": "[7.0.1, )",
+            "Microsoft.Extensions.Http": "[7.0.0, )",
+            "Microsoft.Extensions.Identity.Stores": "[7.0.3, )",
+            "Microsoft.Extensions.Logging": "[7.0.0, )",
+            "Microsoft.Extensions.Logging.Abstractions": "[7.0.0, )",
+            "Microsoft.Extensions.Logging.AzureAppServices": "[7.0.3, )",
+            "Microsoft.NET.Test.Sdk": "[17.5.0, )",
+            "Microsoft.NETCore.Platforms": "[7.0.0, )",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "[1.17.0, )",
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": "[7.0.4, )",
+            "Microsoft.Web.LibraryManager.Build": "[2.1.175, )",
+            "Moq": "[4.18.4, )",
+            "Newtonsoft.Json": "[13.0.2, )",
+            "Polly": "[7.2.3, )",
+            "RabbitMQ.Client": "[6.4.0, )",
+            "Serilog.AspNetCore": "[6.1.0, )",
+            "Serilog.Enrichers.Environment": "[2.2.1-dev-00787, )",
+            "Serilog.Settings.Configuration": "[3.5.0-dev-00359, )",
+            "Serilog.Sinks.Console": "[4.1.1-dev-00896, )",
+            "Serilog.Sinks.Http": "[8.0.0, )",
+            "Serilog.Sinks.Seq": "[5.2.3-dev-00260, )",
+            "Swashbuckle.AspNetCore": "[6.5.0, )",
+            "Swashbuckle.AspNetCore.Newtonsoft": "[6.5.0, )",
+            "System.Data.SqlClient": "[4.8.5, )",
+            "System.IdentityModel.Tokens.Jwt": "[6.27.0, )",
+            "System.Reflection.TypeExtensions": "[4.7.0, )",
+            "xunit": "[2.4.2, )",
+            "xunit.runner.visualstudio": "[2.4.5, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
+        "projectName": "Ordering.API",
+        "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
+        "packagesPath": "C:\\Users\\elio_\\.nuget\\packages\\",
+        "outputPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\NuGet.Config",
+          "C:\\Users\\elio_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
+                "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj"
+              },
+              "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj": {
+                "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj"
+              },
+              "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
+                "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
+              },
+              "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj": {
+                "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj"
+              },
+              "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\WebHostCustomization\\WebHost.Customization\\WebHost.Customization.csproj": {
+                "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\BuildingBlocks\\WebHostCustomization\\WebHost.Customization\\WebHost.Customization.csproj"
+              },
+              "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
+                "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj"
+              },
+              "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
+                "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.AzureServiceBus": {
+              "target": "Package",
+              "version": "[6.1.0, )",
+              "versionCentrallyManaged": true
+            },
+            "AspNetCore.HealthChecks.Rabbitmq": {
+              "target": "Package",
+              "version": "[6.0.2, )",
+              "versionCentrallyManaged": true
+            },
+            "AspNetCore.HealthChecks.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )",
+              "versionCentrallyManaged": true
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[6.0.5, )",
+              "versionCentrallyManaged": true
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": {
+              "target": "Package",
+              "version": "[1.2.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.8.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )",
+              "versionCentrallyManaged": true
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.22.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Grpc.AspNetCore.Server": {
+              "target": "Package",
+              "version": "[2.51.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Grpc.Tools": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.51.0, )",
+              "versionCentrallyManaged": true
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.22.0-beta1, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.ApplicationInsights.DependencyCollector": {
+              "target": "Package",
+              "version": "[2.22.0-beta1, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.ApplicationInsights.Kubernetes": {
+              "target": "Package",
+              "version": "[6.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.HealthChecks": {
+              "target": "Package",
+              "version": "[1.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging.AzureAppServices": {
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.NETCore.Platforms": {
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.1-dev-00787, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.5.0-dev-00359, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.1.1-dev-00896, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog.Sinks.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[5.2.3-dev-00260, )",
+              "versionCentrallyManaged": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Swashbuckle.AspNetCore.Newtonsoft": {
+              "target": "Package",
+              "version": "[6.5.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "AspNetCore.HealthChecks.AzureServiceBus": "[6.1.0, )",
+            "AspNetCore.HealthChecks.AzureStorage": "[6.1.2, )",
+            "AspNetCore.HealthChecks.Rabbitmq": "[6.0.2, )",
+            "AspNetCore.HealthChecks.Redis": "[6.0.4, )",
+            "AspNetCore.HealthChecks.SqlServer": "[6.0.2, )",
+            "AspNetCore.HealthChecks.UI": "[6.0.5, )",
+            "AspNetCore.HealthChecks.UI.Client": "[6.0.5, )",
+            "AspNetCore.HealthChecks.UI.InMemory.Storage": "[6.0.5, )",
+            "AspNetCore.HealthChecks.Uris": "[6.0.3, )",
+            "Autofac": "[6.5.0, )",
+            "Autofac.Extensions.DependencyInjection": "[8.0.0, )",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "[1.2.2, )",
+            "Azure.Identity": "[1.8.2, )",
+            "Azure.Messaging.ServiceBus": "[7.12.0, )",
+            "BuildBundlerMinifier": "[3.2.449, )",
+            "Dapper": "[2.0.123, )",
+            "Duende.IdentityServer": "[6.2.3, )",
+            "Duende.IdentityServer.AspNetIdentity": "[6.2.3, )",
+            "Duende.IdentityServer.EntityFramework": "[6.2.3, )",
+            "Duende.IdentityServer.EntityFramework.Storage": "[6.2.3, )",
+            "Duende.IdentityServer.Storage": "[6.2.3, )",
+            "FluentValidation.AspNetCore": "[11.2.2, )",
+            "Google.Protobuf": "[3.22.0, )",
+            "Grpc.AspNetCore.Server": "[2.51.0, )",
+            "Grpc.AspNetCore.Server.ClientFactory": "[2.51.0, )",
+            "Grpc.Core": "[2.46.6, )",
+            "Grpc.Net.Client": "[2.51.0, )",
+            "Grpc.Net.ClientFactory": "[2.51.0, )",
+            "Grpc.Tools": "[2.51.0, )",
+            "MediatR": "[12.0.0, )",
+            "Microsoft.ApplicationInsights.AspNetCore": "[2.22.0-beta1, )",
+            "Microsoft.ApplicationInsights.DependencyCollector": "[2.22.0-beta1, )",
+            "Microsoft.ApplicationInsights.Kubernetes": "[6.0.0, )",
+            "Microsoft.AspNet.WebApi.Client": "[5.2.9, )",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "[7.0.3, )",
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": "[7.0.3, )",
+            "Microsoft.AspNetCore.Authorization": "[7.0.3, )",
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": "[7.0.3, )",
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": "[2.2.0, )",
+            "Microsoft.AspNetCore.HealthChecks": "[1.0.0, )",
+            "Microsoft.AspNetCore.Http.Abstractions": "[2.2.0, )",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.AspNetCore.Identity.UI": "[7.0.3, )",
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.3, )",
+            "Microsoft.AspNetCore.Mvc.Testing": "[7.0.3, )",
+            "Microsoft.AspNetCore.SignalR.StackExchangeRedis": "[7.0.3, )",
+            "Microsoft.AspNetCore.SpaServices.Extensions": "[7.0.3, )",
+            "Microsoft.AspNetCore.TestHost": "[7.0.3, )",
+            "Microsoft.Build.Utilities.Core": "[17.4.0, )",
+            "Microsoft.CSharp": "[4.7.0, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.InMemory": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Proxies": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Relational": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.SqlServer": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[7.0.3, )",
+            "Microsoft.Extensions.Configuration.Binder": "[7.0.3, )",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "[7.0.0, )",
+            "Microsoft.Extensions.DependencyModel": "[7.0.0, )",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "[7.0.3, )",
+            "Microsoft.Extensions.Hosting": "[7.0.1, )",
+            "Microsoft.Extensions.Http": "[7.0.0, )",
+            "Microsoft.Extensions.Identity.Stores": "[7.0.3, )",
+            "Microsoft.Extensions.Logging": "[7.0.0, )",
+            "Microsoft.Extensions.Logging.Abstractions": "[7.0.0, )",
+            "Microsoft.Extensions.Logging.AzureAppServices": "[7.0.3, )",
+            "Microsoft.NET.Test.Sdk": "[17.5.0, )",
+            "Microsoft.NETCore.Platforms": "[7.0.0, )",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "[1.17.0, )",
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": "[7.0.4, )",
+            "Microsoft.Web.LibraryManager.Build": "[2.1.175, )",
+            "Moq": "[4.18.4, )",
+            "Newtonsoft.Json": "[13.0.2, )",
+            "Polly": "[7.2.3, )",
+            "RabbitMQ.Client": "[6.4.0, )",
+            "Serilog.AspNetCore": "[6.1.0, )",
+            "Serilog.Enrichers.Environment": "[2.2.1-dev-00787, )",
+            "Serilog.Settings.Configuration": "[3.5.0-dev-00359, )",
+            "Serilog.Sinks.Console": "[4.1.1-dev-00896, )",
+            "Serilog.Sinks.Http": "[8.0.0, )",
+            "Serilog.Sinks.Seq": "[5.2.3-dev-00260, )",
+            "Swashbuckle.AspNetCore": "[6.5.0, )",
+            "Swashbuckle.AspNetCore.Newtonsoft": "[6.5.0, )",
+            "System.Data.SqlClient": "[4.8.5, )",
+            "System.IdentityModel.Tokens.Jwt": "[6.27.0, )",
+            "System.Reflection.TypeExtensions": "[4.7.0, )",
+            "xunit": "[2.4.2, )",
+            "xunit.runner.visualstudio": "[2.4.5, )"
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+        "projectName": "Ordering.Domain",
+        "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+        "packagesPath": "C:\\Users\\elio_\\.nuget\\packages\\",
+        "outputPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\NuGet.Config",
+          "C:\\Users\\elio_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Reflection.TypeExtensions": {
+              "target": "Package",
+              "version": "[4.7.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "AspNetCore.HealthChecks.AzureServiceBus": "[6.1.0, )",
+            "AspNetCore.HealthChecks.AzureStorage": "[6.1.2, )",
+            "AspNetCore.HealthChecks.Rabbitmq": "[6.0.2, )",
+            "AspNetCore.HealthChecks.Redis": "[6.0.4, )",
+            "AspNetCore.HealthChecks.SqlServer": "[6.0.2, )",
+            "AspNetCore.HealthChecks.UI": "[6.0.5, )",
+            "AspNetCore.HealthChecks.UI.Client": "[6.0.5, )",
+            "AspNetCore.HealthChecks.UI.InMemory.Storage": "[6.0.5, )",
+            "AspNetCore.HealthChecks.Uris": "[6.0.3, )",
+            "Autofac": "[6.5.0, )",
+            "Autofac.Extensions.DependencyInjection": "[8.0.0, )",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "[1.2.2, )",
+            "Azure.Identity": "[1.8.2, )",
+            "Azure.Messaging.ServiceBus": "[7.12.0, )",
+            "BuildBundlerMinifier": "[3.2.449, )",
+            "Dapper": "[2.0.123, )",
+            "Duende.IdentityServer": "[6.2.3, )",
+            "Duende.IdentityServer.AspNetIdentity": "[6.2.3, )",
+            "Duende.IdentityServer.EntityFramework": "[6.2.3, )",
+            "Duende.IdentityServer.EntityFramework.Storage": "[6.2.3, )",
+            "Duende.IdentityServer.Storage": "[6.2.3, )",
+            "FluentValidation.AspNetCore": "[11.2.2, )",
+            "Google.Protobuf": "[3.22.0, )",
+            "Grpc.AspNetCore.Server": "[2.51.0, )",
+            "Grpc.AspNetCore.Server.ClientFactory": "[2.51.0, )",
+            "Grpc.Core": "[2.46.6, )",
+            "Grpc.Net.Client": "[2.51.0, )",
+            "Grpc.Net.ClientFactory": "[2.51.0, )",
+            "Grpc.Tools": "[2.51.0, )",
+            "MediatR": "[12.0.0, )",
+            "Microsoft.ApplicationInsights.AspNetCore": "[2.22.0-beta1, )",
+            "Microsoft.ApplicationInsights.DependencyCollector": "[2.22.0-beta1, )",
+            "Microsoft.ApplicationInsights.Kubernetes": "[6.0.0, )",
+            "Microsoft.AspNet.WebApi.Client": "[5.2.9, )",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "[7.0.3, )",
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": "[7.0.3, )",
+            "Microsoft.AspNetCore.Authorization": "[7.0.3, )",
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": "[7.0.3, )",
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": "[2.2.0, )",
+            "Microsoft.AspNetCore.HealthChecks": "[1.0.0, )",
+            "Microsoft.AspNetCore.Http.Abstractions": "[2.2.0, )",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.AspNetCore.Identity.UI": "[7.0.3, )",
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.3, )",
+            "Microsoft.AspNetCore.Mvc.Testing": "[7.0.3, )",
+            "Microsoft.AspNetCore.SignalR.StackExchangeRedis": "[7.0.3, )",
+            "Microsoft.AspNetCore.SpaServices.Extensions": "[7.0.3, )",
+            "Microsoft.AspNetCore.TestHost": "[7.0.3, )",
+            "Microsoft.Build.Utilities.Core": "[17.4.0, )",
+            "Microsoft.CSharp": "[4.7.0, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.InMemory": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Proxies": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Relational": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.SqlServer": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[7.0.3, )",
+            "Microsoft.Extensions.Configuration.Binder": "[7.0.3, )",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "[7.0.0, )",
+            "Microsoft.Extensions.DependencyModel": "[7.0.0, )",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "[7.0.3, )",
+            "Microsoft.Extensions.Hosting": "[7.0.1, )",
+            "Microsoft.Extensions.Http": "[7.0.0, )",
+            "Microsoft.Extensions.Identity.Stores": "[7.0.3, )",
+            "Microsoft.Extensions.Logging": "[7.0.0, )",
+            "Microsoft.Extensions.Logging.Abstractions": "[7.0.0, )",
+            "Microsoft.Extensions.Logging.AzureAppServices": "[7.0.3, )",
+            "Microsoft.NET.Test.Sdk": "[17.5.0, )",
+            "Microsoft.NETCore.Platforms": "[7.0.0, )",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "[1.17.0, )",
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": "[7.0.4, )",
+            "Microsoft.Web.LibraryManager.Build": "[2.1.175, )",
+            "Moq": "[4.18.4, )",
+            "Newtonsoft.Json": "[13.0.2, )",
+            "Polly": "[7.2.3, )",
+            "RabbitMQ.Client": "[6.4.0, )",
+            "Serilog.AspNetCore": "[6.1.0, )",
+            "Serilog.Enrichers.Environment": "[2.2.1-dev-00787, )",
+            "Serilog.Settings.Configuration": "[3.5.0-dev-00359, )",
+            "Serilog.Sinks.Console": "[4.1.1-dev-00896, )",
+            "Serilog.Sinks.Http": "[8.0.0, )",
+            "Serilog.Sinks.Seq": "[5.2.3-dev-00260, )",
+            "Swashbuckle.AspNetCore": "[6.5.0, )",
+            "Swashbuckle.AspNetCore.Newtonsoft": "[6.5.0, )",
+            "System.Data.SqlClient": "[4.8.5, )",
+            "System.IdentityModel.Tokens.Jwt": "[6.27.0, )",
+            "System.Reflection.TypeExtensions": "[4.7.0, )",
+            "xunit": "[2.4.2, )",
+            "xunit.runner.visualstudio": "[2.4.5, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
+        "projectName": "Ordering.Infrastructure",
+        "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\elio_\\.nuget\\packages\\",
+        "outputPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\NuGet.Config",
+          "C:\\Users\\elio_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
+                "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "AspNetCore.HealthChecks.AzureServiceBus": "[6.1.0, )",
+            "AspNetCore.HealthChecks.AzureStorage": "[6.1.2, )",
+            "AspNetCore.HealthChecks.Rabbitmq": "[6.0.2, )",
+            "AspNetCore.HealthChecks.Redis": "[6.0.4, )",
+            "AspNetCore.HealthChecks.SqlServer": "[6.0.2, )",
+            "AspNetCore.HealthChecks.UI": "[6.0.5, )",
+            "AspNetCore.HealthChecks.UI.Client": "[6.0.5, )",
+            "AspNetCore.HealthChecks.UI.InMemory.Storage": "[6.0.5, )",
+            "AspNetCore.HealthChecks.Uris": "[6.0.3, )",
+            "Autofac": "[6.5.0, )",
+            "Autofac.Extensions.DependencyInjection": "[8.0.0, )",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "[1.2.2, )",
+            "Azure.Identity": "[1.8.2, )",
+            "Azure.Messaging.ServiceBus": "[7.12.0, )",
+            "BuildBundlerMinifier": "[3.2.449, )",
+            "Dapper": "[2.0.123, )",
+            "Duende.IdentityServer": "[6.2.3, )",
+            "Duende.IdentityServer.AspNetIdentity": "[6.2.3, )",
+            "Duende.IdentityServer.EntityFramework": "[6.2.3, )",
+            "Duende.IdentityServer.EntityFramework.Storage": "[6.2.3, )",
+            "Duende.IdentityServer.Storage": "[6.2.3, )",
+            "FluentValidation.AspNetCore": "[11.2.2, )",
+            "Google.Protobuf": "[3.22.0, )",
+            "Grpc.AspNetCore.Server": "[2.51.0, )",
+            "Grpc.AspNetCore.Server.ClientFactory": "[2.51.0, )",
+            "Grpc.Core": "[2.46.6, )",
+            "Grpc.Net.Client": "[2.51.0, )",
+            "Grpc.Net.ClientFactory": "[2.51.0, )",
+            "Grpc.Tools": "[2.51.0, )",
+            "MediatR": "[12.0.0, )",
+            "Microsoft.ApplicationInsights.AspNetCore": "[2.22.0-beta1, )",
+            "Microsoft.ApplicationInsights.DependencyCollector": "[2.22.0-beta1, )",
+            "Microsoft.ApplicationInsights.Kubernetes": "[6.0.0, )",
+            "Microsoft.AspNet.WebApi.Client": "[5.2.9, )",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "[7.0.3, )",
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": "[7.0.3, )",
+            "Microsoft.AspNetCore.Authorization": "[7.0.3, )",
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": "[7.0.3, )",
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": "[2.2.0, )",
+            "Microsoft.AspNetCore.HealthChecks": "[1.0.0, )",
+            "Microsoft.AspNetCore.Http.Abstractions": "[2.2.0, )",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.AspNetCore.Identity.UI": "[7.0.3, )",
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.3, )",
+            "Microsoft.AspNetCore.Mvc.Testing": "[7.0.3, )",
+            "Microsoft.AspNetCore.SignalR.StackExchangeRedis": "[7.0.3, )",
+            "Microsoft.AspNetCore.SpaServices.Extensions": "[7.0.3, )",
+            "Microsoft.AspNetCore.TestHost": "[7.0.3, )",
+            "Microsoft.Build.Utilities.Core": "[17.4.0, )",
+            "Microsoft.CSharp": "[4.7.0, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.InMemory": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Proxies": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Relational": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.SqlServer": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[7.0.3, )",
+            "Microsoft.Extensions.Configuration.Binder": "[7.0.3, )",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "[7.0.0, )",
+            "Microsoft.Extensions.DependencyModel": "[7.0.0, )",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "[7.0.3, )",
+            "Microsoft.Extensions.Hosting": "[7.0.1, )",
+            "Microsoft.Extensions.Http": "[7.0.0, )",
+            "Microsoft.Extensions.Identity.Stores": "[7.0.3, )",
+            "Microsoft.Extensions.Logging": "[7.0.0, )",
+            "Microsoft.Extensions.Logging.Abstractions": "[7.0.0, )",
+            "Microsoft.Extensions.Logging.AzureAppServices": "[7.0.3, )",
+            "Microsoft.NET.Test.Sdk": "[17.5.0, )",
+            "Microsoft.NETCore.Platforms": "[7.0.0, )",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "[1.17.0, )",
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": "[7.0.4, )",
+            "Microsoft.Web.LibraryManager.Build": "[2.1.175, )",
+            "Moq": "[4.18.4, )",
+            "Newtonsoft.Json": "[13.0.2, )",
+            "Polly": "[7.2.3, )",
+            "RabbitMQ.Client": "[6.4.0, )",
+            "Serilog.AspNetCore": "[6.1.0, )",
+            "Serilog.Enrichers.Environment": "[2.2.1-dev-00787, )",
+            "Serilog.Settings.Configuration": "[3.5.0-dev-00359, )",
+            "Serilog.Sinks.Console": "[4.1.1-dev-00896, )",
+            "Serilog.Sinks.Http": "[8.0.0, )",
+            "Serilog.Sinks.Seq": "[5.2.3-dev-00260, )",
+            "Swashbuckle.AspNetCore": "[6.5.0, )",
+            "Swashbuckle.AspNetCore.Newtonsoft": "[6.5.0, )",
+            "System.Data.SqlClient": "[4.8.5, )",
+            "System.IdentityModel.Tokens.Jwt": "[6.27.0, )",
+            "System.Reflection.TypeExtensions": "[4.7.0, )",
+            "xunit": "[2.4.2, )",
+            "xunit.runner.visualstudio": "[2.4.5, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.UnitTests\\Ordering.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.UnitTests\\Ordering.UnitTests.csproj",
+        "projectName": "Ordering.UnitTests",
+        "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.UnitTests\\Ordering.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\elio_\\.nuget\\packages\\",
+        "outputPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\NuGet.Config",
+          "C:\\Users\\elio_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj": {
+                "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj"
+              },
+              "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
+                "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj"
+              },
+              "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
+                "projectPath": "C:\\Elio\\Development\\Projects\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.NETCore.Platforms": {
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )",
+              "versionCentrallyManaged": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )",
+              "versionCentrallyManaged": true
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "AspNetCore.HealthChecks.AzureServiceBus": "[6.1.0, )",
+            "AspNetCore.HealthChecks.AzureStorage": "[6.1.2, )",
+            "AspNetCore.HealthChecks.Rabbitmq": "[6.0.2, )",
+            "AspNetCore.HealthChecks.Redis": "[6.0.4, )",
+            "AspNetCore.HealthChecks.SqlServer": "[6.0.2, )",
+            "AspNetCore.HealthChecks.UI": "[6.0.5, )",
+            "AspNetCore.HealthChecks.UI.Client": "[6.0.5, )",
+            "AspNetCore.HealthChecks.UI.InMemory.Storage": "[6.0.5, )",
+            "AspNetCore.HealthChecks.Uris": "[6.0.3, )",
+            "Autofac": "[6.5.0, )",
+            "Autofac.Extensions.DependencyInjection": "[8.0.0, )",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "[1.2.2, )",
+            "Azure.Identity": "[1.8.2, )",
+            "Azure.Messaging.ServiceBus": "[7.12.0, )",
+            "BuildBundlerMinifier": "[3.2.449, )",
+            "Dapper": "[2.0.123, )",
+            "Duende.IdentityServer": "[6.2.3, )",
+            "Duende.IdentityServer.AspNetIdentity": "[6.2.3, )",
+            "Duende.IdentityServer.EntityFramework": "[6.2.3, )",
+            "Duende.IdentityServer.EntityFramework.Storage": "[6.2.3, )",
+            "Duende.IdentityServer.Storage": "[6.2.3, )",
+            "FluentValidation.AspNetCore": "[11.2.2, )",
+            "Google.Protobuf": "[3.22.0, )",
+            "Grpc.AspNetCore.Server": "[2.51.0, )",
+            "Grpc.AspNetCore.Server.ClientFactory": "[2.51.0, )",
+            "Grpc.Core": "[2.46.6, )",
+            "Grpc.Net.Client": "[2.51.0, )",
+            "Grpc.Net.ClientFactory": "[2.51.0, )",
+            "Grpc.Tools": "[2.51.0, )",
+            "MediatR": "[12.0.0, )",
+            "Microsoft.ApplicationInsights.AspNetCore": "[2.22.0-beta1, )",
+            "Microsoft.ApplicationInsights.DependencyCollector": "[2.22.0-beta1, )",
+            "Microsoft.ApplicationInsights.Kubernetes": "[6.0.0, )",
+            "Microsoft.AspNet.WebApi.Client": "[5.2.9, )",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "[7.0.3, )",
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": "[7.0.3, )",
+            "Microsoft.AspNetCore.Authorization": "[7.0.3, )",
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": "[7.0.3, )",
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": "[2.2.0, )",
+            "Microsoft.AspNetCore.HealthChecks": "[1.0.0, )",
+            "Microsoft.AspNetCore.Http.Abstractions": "[2.2.0, )",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.AspNetCore.Identity.UI": "[7.0.3, )",
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.3, )",
+            "Microsoft.AspNetCore.Mvc.Testing": "[7.0.3, )",
+            "Microsoft.AspNetCore.SignalR.StackExchangeRedis": "[7.0.3, )",
+            "Microsoft.AspNetCore.SpaServices.Extensions": "[7.0.3, )",
+            "Microsoft.AspNetCore.TestHost": "[7.0.3, )",
+            "Microsoft.Build.Utilities.Core": "[17.4.0, )",
+            "Microsoft.CSharp": "[4.7.0, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.InMemory": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Proxies": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Relational": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.SqlServer": "[7.0.3, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[7.0.3, )",
+            "Microsoft.Extensions.Configuration.Binder": "[7.0.3, )",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "[7.0.0, )",
+            "Microsoft.Extensions.DependencyModel": "[7.0.0, )",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "[7.0.3, )",
+            "Microsoft.Extensions.Hosting": "[7.0.1, )",
+            "Microsoft.Extensions.Http": "[7.0.0, )",
+            "Microsoft.Extensions.Identity.Stores": "[7.0.3, )",
+            "Microsoft.Extensions.Logging": "[7.0.0, )",
+            "Microsoft.Extensions.Logging.Abstractions": "[7.0.0, )",
+            "Microsoft.Extensions.Logging.AzureAppServices": "[7.0.3, )",
+            "Microsoft.NET.Test.Sdk": "[17.5.0, )",
+            "Microsoft.NETCore.Platforms": "[7.0.0, )",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "[1.17.0, )",
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": "[7.0.4, )",
+            "Microsoft.Web.LibraryManager.Build": "[2.1.175, )",
+            "Moq": "[4.18.4, )",
+            "Newtonsoft.Json": "[13.0.2, )",
+            "Polly": "[7.2.3, )",
+            "RabbitMQ.Client": "[6.4.0, )",
+            "Serilog.AspNetCore": "[6.1.0, )",
+            "Serilog.Enrichers.Environment": "[2.2.1-dev-00787, )",
+            "Serilog.Settings.Configuration": "[3.5.0-dev-00359, )",
+            "Serilog.Sinks.Console": "[4.1.1-dev-00896, )",
+            "Serilog.Sinks.Http": "[8.0.0, )",
+            "Serilog.Sinks.Seq": "[5.2.3-dev-00260, )",
+            "Swashbuckle.AspNetCore": "[6.5.0, )",
+            "Swashbuckle.AspNetCore.Newtonsoft": "[6.5.0, )",
+            "System.Data.SqlClient": "[4.8.5, )",
+            "System.IdentityModel.Tokens.Jwt": "[6.27.0, )",
+            "System.Reflection.TypeExtensions": "[4.7.0, )",
+            "xunit": "[2.4.2, )",
+            "xunit.runner.visualstudio": "[2.4.5, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

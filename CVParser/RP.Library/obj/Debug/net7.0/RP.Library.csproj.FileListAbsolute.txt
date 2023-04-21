@@ -10,3 +10,15 @@ C:\Elio\Development\Projects\ResumeParser\RP.Library\obj\Debug\net7.0\RP.Library
 C:\Elio\Development\Projects\ResumeParser\RP.Library\obj\Debug\net7.0\refint\RP.Library.dll
 C:\Elio\Development\Projects\ResumeParser\RP.Library\obj\Debug\net7.0\RP.Library.pdb
 C:\Elio\Development\Projects\ResumeParser\RP.Library\obj\Debug\net7.0\ref\RP.Library.dll
+C:\Elio\Development\Projects\ResumeParser\CVParser\RP.Library\bin\Debug\net7.0\RP.Library.deps.json
+C:\Elio\Development\Projects\ResumeParser\CVParser\RP.Library\bin\Debug\net7.0\RP.Library.dll
+C:\Elio\Development\Projects\ResumeParser\CVParser\RP.Library\bin\Debug\net7.0\RP.Library.pdb
+C:\Elio\Development\Projects\ResumeParser\CVParser\RP.Library\obj\Debug\net7.0\RP.Library.csproj.AssemblyReference.cache
+C:\Elio\Development\Projects\ResumeParser\CVParser\RP.Library\obj\Debug\net7.0\RP.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Elio\Development\Projects\ResumeParser\CVParser\RP.Library\obj\Debug\net7.0\RP.Library.AssemblyInfoInputs.cache
+C:\Elio\Development\Projects\ResumeParser\CVParser\RP.Library\obj\Debug\net7.0\RP.Library.AssemblyInfo.cs
+C:\Elio\Development\Projects\ResumeParser\CVParser\RP.Library\obj\Debug\net7.0\RP.Library.csproj.CoreCompileInputs.cache
+C:\Elio\Development\Projects\ResumeParser\CVParser\RP.Library\obj\Debug\net7.0\RP.Library.dll
+C:\Elio\Development\Projects\ResumeParser\CVParser\RP.Library\obj\Debug\net7.0\refint\RP.Library.dll
+C:\Elio\Development\Projects\ResumeParser\CVParser\RP.Library\obj\Debug\net7.0\RP.Library.pdb
+C:\Elio\Development\Projects\ResumeParser\CVParser\RP.Library\obj\Debug\net7.0\ref\RP.Library.dll
