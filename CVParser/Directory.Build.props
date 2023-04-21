@@ -1,7 +1,0 @@
-<Project>
-  <PropertyGroup>
-    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <TargetFramework>net7.0</TargetFramework>
-  </PropertyGroup>
-</Project>

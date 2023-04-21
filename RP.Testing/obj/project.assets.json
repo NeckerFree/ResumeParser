@@ -88,13 +88,13 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.Office.Interop.Word/15.0.4797.1004": {
+      "Microsoft.Office.Interop.Word/12.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll": {}
+          "lib/net11/Microsoft.Office.Interop.Word.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll": {}
+          "lib/net11/Microsoft.Office.Interop.Word.dll": {}
         }
       },
       "Microsoft.TestPlatform.ObjectModel/17.3.2": {
@@ -1822,7 +1822,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Office.Interop.Word": "15.0.4797.1004"
+          "Microsoft.Office.Interop.Word": "(, )"
         },
         "compile": {
           "bin/placeholder/RP.Library.dll": {}
@@ -2071,16 +2071,15 @@
         "runtime.json"
       ]
     },
-    "Microsoft.Office.Interop.Word/15.0.4797.1004": {
-      "sha512": "lavTOrMGK/o/t3+gGr7JuVrL8XDdnS0DwPLcYv/StOiysXO4L0C36IXTVtEJo1Mh9Aoxo9a8dgGcPi+faTlv0g==",
+    "Microsoft.Office.Interop.Word/12.0.0": {
+      "sha512": "Z0IMfOwBhk2bu1VYHv1xXzc+6+zZO2uD82dFpub4YhaZ2CddBBE5kDTUh+9Zti2/VY6VS+gZ0U+UsrxOIQm+lw==",
       "type": "package",
-      "path": "microsoft.office.interop.word/15.0.4797.1004",
+      "path": "microsoft.office.interop.word/12.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net20/Microsoft.Office.Interop.Word.dll",
-        "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll",
-        "microsoft.office.interop.word.15.0.4797.1004.nupkg.sha512",
+        "lib/net11/Microsoft.Office.Interop.Word.dll",
+        "microsoft.office.interop.word.12.0.0.nupkg.sha512",
         "microsoft.office.interop.word.nuspec"
       ]
     },
@@ -6211,5 +6210,27 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "RP.Library does not provide an inclusive lower bound for dependency Microsoft.Office.Interop.Word. An approximate best match of Microsoft.Office.Interop.Word 12.0.0 was resolved.",
+      "libraryId": "Microsoft.Office.Interop.Word",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Office.Interop.Word 12.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Office.Interop.Word",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

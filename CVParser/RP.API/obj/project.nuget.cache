@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "sK4tfoh8GTnQoL0pNyWXDcPHXWXC3u/4+EzXuvN9OdkK7hSmT3Fl20zLmZpceUIGMrN9Gki8PoxwAQDOjRzikw==",
-  "success": false,
+  "dgSpecHash": "RLAYi1irRxfEdnWCM+0biCdZHBcjqV2s5je80FJ+U6WGJhWwzLRafLg0stwvnHz3V455orkZ7kUXpkuvWlfk3w==",
+  "success": true,
   "projectFilePath": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\RP.API\\RP.API.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1008",
-      "level": "Error",
-      "message": "Projects that use central package version management should not define the version on the PackageReference items but on the PackageVersion items: Microsoft.AspNetCore.OpenApi;Swashbuckle.AspNetCore."
-    }
-  ]
+  "expectedPackageFiles": [
+    "C:\\Users\\elio_\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
+    "C:\\Users\\elio_\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\elio_\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\elio_\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\elio_\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\elio_\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\elio_\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
 }

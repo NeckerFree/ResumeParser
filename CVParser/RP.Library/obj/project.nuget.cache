@@ -1,10 +1,31 @@
 {
   "version": 2,
-  "dgSpecHash": "laU+GosErnzq+WDCkoQYh7wKWZHLWhEih1liy7ZqIliyejbz+Ge3cKeMKOL+vqKq7Qm45wTjQwGcsQ0lV1dbIg==",
+  "dgSpecHash": "5xZ1u2ydEM+V9Mpkza6FvZsZpJ65b/6gRziKJ6fGYk2rY6lgXrys7Lg811N9/ELfdKn7OMxHQDrMRmSxYUPM/Q==",
   "success": true,
   "projectFilePath": "C:\\Elio\\Development\\Projects\\ResumeParser\\CVParser\\RP.Library\\RP.Library.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\elio_\\.nuget\\packages\\microsoft.office.interop.word\\15.0.4797.1004\\microsoft.office.interop.word.15.0.4797.1004.nupkg.sha512"
+    "C:\\Users\\elio_\\.nuget\\packages\\microsoft.office.interop.word\\12.0.0\\microsoft.office.interop.word.12.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1604",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Project dependency Microsoft.Office.Interop.Word does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
+      "libraryId": "Microsoft.Office.Interop.Word",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Office.Interop.Word 12.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Office.Interop.Word",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
