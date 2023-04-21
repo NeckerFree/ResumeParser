@@ -1,5 +1,0 @@
-C:\Elio\Development\Projects\ResumeParser\Services\Ordering\Ordering.Domain\obj\Debug\net7.0\Ordering.Domain.csproj.AssemblyReference.cache
-C:\Elio\Development\Projects\ResumeParser\Services\Ordering\Ordering.Domain\obj\Debug\net7.0\Ordering.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Elio\Development\Projects\ResumeParser\Services\Ordering\Ordering.Domain\obj\Debug\net7.0\Ordering.Domain.AssemblyInfoInputs.cache
-C:\Elio\Development\Projects\ResumeParser\Services\Ordering\Ordering.Domain\obj\Debug\net7.0\Ordering.Domain.AssemblyInfo.cs
-C:\Elio\Development\Projects\ResumeParser\Services\Ordering\Ordering.Domain\obj\Debug\net7.0\Ordering.Domain.csproj.CoreCompileInputs.cache

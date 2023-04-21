@@ -22,3 +22,4 @@ C:\Elio\Development\Projects\ResumeParser\CVParser\RP.Library\obj\Debug\net7.0\R
 C:\Elio\Development\Projects\ResumeParser\CVParser\RP.Library\obj\Debug\net7.0\refint\RP.Library.dll
 C:\Elio\Development\Projects\ResumeParser\CVParser\RP.Library\obj\Debug\net7.0\RP.Library.pdb
 C:\Elio\Development\Projects\ResumeParser\CVParser\RP.Library\obj\Debug\net7.0\ref\RP.Library.dll
+C:\Elio\Development\Projects\ResumeParser\CVParser\RP.Library\bin\Debug\net7.0\Example.json
